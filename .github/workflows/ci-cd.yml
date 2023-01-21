@@ -25,7 +25,7 @@ jobs:
       run: npm run build && npm test
       
     - name: add origin
-      run: git remote add origin git@github.com:Ravikumar37728/test2.git
+      run: git remote -v
       
     - name: Deploy to GitHub Pages
       if: success()
