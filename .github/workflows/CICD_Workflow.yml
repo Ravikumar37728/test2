@@ -28,6 +28,6 @@ jobs:
       if: success()
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        GITHUB_TOKEN: ${{ secrets.FIRST_SECRATE }}
+        GITHUB_TOKEN: ${{ FIRST_SECRATE }}
         BRANCH: gh-pages
         FOLDER: dist
